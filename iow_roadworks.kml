@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>iow_roadworks.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Road Works</name>
+		<open>1</open>
+		<Placemark>
+			<name>Road Works: Yarmouth Road</name>
+			<snippet></snippet>
+			<description>Junction between Whitehouse Road and Yarmouth Road/A3054 closed for road works between 01/03/2024 and 12/03/2024</description>
+			<LookAt>
+				<longitude>-1.345060043441048</longitude>
+				<latitude>50.70547414191793</latitude>
+				<altitude>0</altitude>
+				<heading>0.4864353368766576</heading>
+				<tilt>9.673802588927902</tilt>
+				<range>3303.153446302609</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.345810753596657,50.70267234733625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Road Works: Shanklin Road</name>
+			<snippet></snippet>
+			<description>Partial closure of Shanklin Road/A3020 between Lessland Lane and Canteen Road. Road works operating 19/02/2024 to 23/02/2024</description>
+			<LookAt>
+				<longitude>-1.345060043441048</longitude>
+				<latitude>50.70547414191793</latitude>
+				<altitude>0</altitude>
+				<heading>0.4864353368766576</heading>
+				<tilt>9.673802588927902</tilt>
+				<range>3303.153446302609</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.229014293106196,50.63329564343719,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
